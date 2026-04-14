@@ -1,0 +1,15 @@
+# Ignore datasets
+data/raw/
+data/processed/
+
+# Ignore model weights and temp files
+scripts/CS159FinalProject/temp/
+__pycache__/
+*.pyc
+
+# If you want to ignore all model checkpoints specifically
+**/hf_models/
+
+# Ignore Jupyter Notebook checkpoints
+scripts/baseline.ipynb
+scripts/LLaVA.ipynb
